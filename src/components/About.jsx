@@ -1,5 +1,4 @@
 
-import ProfileFunctional from "./Profile";
 const About = () => {
   return (
     <div className="flex h-[530px]">

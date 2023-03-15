@@ -36,11 +36,11 @@ const Body = () => {
     <>
       <div className="search-container bg-orange-400 p-5 flex justify-items-center">
         <input
-          className="search-input mr-50 w-96 h-8"
+          className="search-input mr-50 w-96 h-8 p-2"
           class="font-bold"
           type="text"
-          placeholder="Search"
-          value={searchText}
+          placeholder="Search your restaurant"
+          // value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
           }}
